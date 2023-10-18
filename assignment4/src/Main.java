@@ -6,14 +6,7 @@ public class Main {
         boolean exit = false;
 
         while (!exit) {
-//            System.out.println("Choose a shape type:");
-//            System.out.println("1. Rectangle");
-//            System.out.println("2. Circle");
-//            System.out.println("3. Triangle");
-//            System.out.println("4. Square");
-//            System.out.println("5. Exit");
-//            System.out.print("Enter your choice: ");
-            System.out.println("\nChoose an option:\n1. Rectangle\n2. Circle\n3. Triangle\n4. Square\n5. Exit");
+            System.out.println("\n1. Rectangle\n2. Circle\n3. Triangle\n4. Square\n5. Exit");
 
             int choice = scan.nextInt();
             switch (choice) {
